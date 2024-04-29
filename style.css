@@ -13,9 +13,9 @@ body{
     height: 400px; 
 }
 
-.form-label {
-    fontcolor: white;
-}
+/* .form-label {
+    color: white;
+} */
 
 .botao {
     margin-top: 30px;
