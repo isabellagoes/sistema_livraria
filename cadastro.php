@@ -1,7 +1,7 @@
 <?php
 
-$nome = $_POST['nome'];
-$setor = $_POST['setor'];
+$nm_usuario = $_POST['nm_usuario'];
+$nm_setor = $_POST['nm_setor'];
 $login = $_POST['login'];
 $senha = $_POST['senha'];
 
