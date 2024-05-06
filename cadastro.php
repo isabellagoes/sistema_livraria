@@ -7,7 +7,7 @@ $senha = $_POST['senha'];
 
 include 'conexao.php';
 
-$insert = "INSERT INTO tb_user VALUES (NULL, '$nome', '$setor', '$login', '$senha')";
+$insert = "INSERT INTO tb_user VALUES (NULL, '$nm_usuario', '$nm_setor', '$login', '$senha')";
 
 $query = mysqli_query($conexao, $insert);
 
