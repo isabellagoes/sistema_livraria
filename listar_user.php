@@ -29,16 +29,20 @@
   <tbody>
 
   <?php 
-  $select = "SELECT * FROM tb_user WHERE login = 'nome'";
+  $select = "SELECT * FROM tb_user";
   $query = mysqli_query($conexao, $select);
-  $result = mysqli_fetch_array($query);
+  while ($result = mysqli_fetch_array($query)) {;
   ?>
+
     <tr>
-      <th scope="row">1</th>
-      <td>Mark</td>
-      <td>Otto</td>
-      <td>@mdo</td>
+      <th scope="row"><?php echo $result['id_user']; ?></th>
+      <td> <?php echo $result['nm_usuario']; ?> </td>
+      <td> <?php echo $result['nm_setor']; ?> </td>
+      <td> <?php echo $result['login']; ?> </td>
     </tr>
+
+  <?php } ?>
+
     <tr>
       <th scope="row">2</th>
       <td>Jacob</td>
