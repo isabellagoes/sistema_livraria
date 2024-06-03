@@ -13,8 +13,8 @@ senha varchar(45) null
 create table tb_cliente(
 cd_cliente int auto_increment not null primary key,
 nm_cliente varchar(45) null,
-nm_endereco varchar(45) null,
-nr_endereco varchar(45) null,
+nm_enderecoCliente varchar(45) null,
+nr_enderecoCliente varchar(45) null,
 nr_cpf char(11) null,
 nr_cnpj char(14) null,
 nr_telefone varchar(11) null
@@ -31,8 +31,8 @@ foreign key (fk_cd_cliente) references tb_cliente (cd_cliente)
 create table tb_editora(
 cd_editora int auto_increment not null primary key,
 nm_editora varchar(45) null,
-nm_endereco varchar(45) null,
-nr_endereco varchar(45) null,
+nm_enderecoEditora varchar(45) null,
+nr_enderecoEditora varchar(45) null,
 nm_bairro varchar(30) null,
 nr_telefone varchar(11) null,
 nm_gerente varchar(45) null
