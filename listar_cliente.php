@@ -74,8 +74,8 @@
     <tr>
       <th scope="row"><?php echo $result['cd_cliente']; ?></th>
       <td> <?php echo $result['nm_cliente']; ?> </td>
-      <td> <?php echo $result['nm_endereco']; ?> </td>
-      <td> <?php echo $result['nr_endereco']; ?> </td>
+      <td> <?php echo $result['nm_enderecoCliente']; ?> </td>
+      <td> <?php echo $result['nr_enderecoCliente']; ?> </td>
       <td> <?php echo $result['nr_cpf']; ?> </td>
       <td> <?php echo $result['nr_cnpj']; ?> </td>
       <td> <?php echo $result['nr_telefone']; ?> </td>
